@@ -63,7 +63,7 @@ class Reviews extends React.Component {
           />
         </Card.Content>
         <Card.Content>
-          <Image size='small' src={r.image} alt="author" />
+          <Image size='small' src={r.image_url} alt="author" />
           <Card.Header>{r.title}</Card.Header>
           <Card.Description>{r.body}</Card.Description>
           <Card.Meta>{r.author}</Card.Meta>
