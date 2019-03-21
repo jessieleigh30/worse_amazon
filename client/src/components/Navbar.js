@@ -24,6 +24,15 @@ const Navbar = () => (
           About
         </NavLink>
       </Menu.Item>
+      <Menu.Item>
+        <NavLink
+          exact
+          to="/departments"
+          activeStyle={styles.active}
+        >
+          Departments
+        </NavLink>
+      </Menu.Item>
     </Menu>
     <div style={{display: "flex", justifyContent: 'center'}}>
       <div style={{
