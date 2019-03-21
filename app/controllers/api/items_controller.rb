@@ -5,7 +5,7 @@ class Api::ItemsController < ApplicationController
 
 
   def index
-    renderjson: @department.items
+    render json: @department.items
   end
 
   def show
@@ -28,6 +28,7 @@ class Api::ItemsController < ApplicationController
     else 
       render json: @item.erros, status: 422
   end
+end
 
   def destroy
     @item.destroy

@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 2019_03_21_154118) do
     t.text "body"
     t.string "author"
     t.integer "rating"
-    t.text "image_url", default: "https://robohash.org/eumautemea.png?size=300x300&set=set1"
+    t.text "image_url", default: "https://robohash.org/necessitatibusenimitaque.png?size=300x300&set=set1"
     t.bigint "item_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
